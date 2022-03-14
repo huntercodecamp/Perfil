@@ -1,0 +1,102 @@
+
+/**{
+border: 1px solid red;
+}*/
+body{
+	margin: 0px;
+	padding: 50px;
+	font-family: 'Hubballi';
+	font-size: 20px;
+	background-color: #fff;
+	color: #000;
+}
+
+header{
+	background-color: #333;
+	color: #eee ;
+
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	line-height: ;
+	padding: 0px;
+	height: 40px;
+
+}
+nav{
+	padding: 0;
+	margin:0;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #666;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 0;
+}
+.menu li {
+	list-style: none;
+}
+.menu-item-link{
+	color: #ddd;
+	display:  block;
+	padding: 5px 15px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.menu-item-link:hover{
+	background-color: rgba(255,255,255,.2);
+}
+.titulos-sec {
+	text-align: center;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+
+main p {
+	text-align: justify;
+}
+
+.container-foto{
+	text-align:right;
+}
+.sec-1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: right;
+	border-right: 1px solid #333;
+	padding-right:15px;
+
+}
+
+.sec-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 15px;
+}
+.foto-perfil{
+	text-align: center;
+	border: 1px solid #666;
+	border-radius: 50%;
+	width: 250px;
+	opacity: 0.9;
+	box-shadow:  10px 10px black, 
+	
+}
+
+
+footer p{
+	text-align: center;
+
+}
+p a {
+	color: #333;
+}
