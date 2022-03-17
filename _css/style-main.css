@@ -12,19 +12,17 @@ body{
 }
 
 header{
-	position: fixed;
-	z-index: 999;
-
 	background-color: #333;
 	color: #eee ;
 
+	position: fixed;
+	z-index: 999;
 	top: 0px;
 	width: 100%;
 	left: 0px;
-	line-height: 40px;
-	
+	line-height: ;
 	padding: 0px;
-	height: 50px;
+	height: 40px;
 
 }
 nav{
@@ -34,17 +32,12 @@ nav{
 	justify-content: space-around;
 	border-bottom: 1px solid #666;
 }
-
 .menu{
 	display: flex;
 	flex-direction: row;
 	padding: 0px;
 	margin: 0;
 }
-
-
-
-
 .menu li {
 	list-style: none;
 }
@@ -52,7 +45,7 @@ nav{
 	color: #ddd;
 	display:  block;
 	padding: 5px 15px;
-	
+	line-height: 30px;
 	text-decoration: none;
 }
 .menu-item-link:hover{
@@ -63,7 +56,7 @@ nav{
 }
 main{
 	display: grid;
-	grid-template-columns: 1fr 2fr ;
+	grid-template-columns: 1fr 1fr ;
 }
 
 main p {
@@ -107,13 +100,7 @@ footer p{
 p a {
 	color: #333;
 }
-#equiv{
-	display: none;
-}
-#equiv ~ .menu{
-	margin: -1000px;
-}
 
-#equiv:checked ~ .menu{
-	margin: 0;
+@media and (max-width: ){
+
 }
