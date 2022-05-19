@@ -101,6 +101,18 @@ p a {
 	color: #333;
 }
 
-@media and (max-width: ){
-
+@media (min-width: 300px) and (max-width: 800px){
+	main {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.container-foto{
+		text-align:center;
+	}
+	.sec-1 {
+		text-align: center;
+		border-right: 0px solid #333;
+		
+	}
 }
