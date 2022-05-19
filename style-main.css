@@ -108,10 +108,15 @@ p a {
 		
 	}
 	.container-foto{
-		text-align:center;
+		text-align:left;
+		padding-left: 20px;
+	}
+	.titulos-sec {
+		text-align: left;
+		padding-left: 0px;
 	}
 	.sec-1 {
-		text-align: center;
+		text-align: left;
 		border-right: 0px solid #333;
 		
 	}
